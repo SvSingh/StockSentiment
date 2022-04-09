@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7ABB8629530A3079D609A03 /* Pods_Stock_Sentimate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0A29968E26DC0004F01698 /* Pods_Stock_Sentimate.framework */; };
+		E127A02B27E13FC80087FF53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A02A27E13FC80087FF53 /* AppDelegate.swift */; };
+		E127A02D27E13FC80087FF53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A02C27E13FC80087FF53 /* SceneDelegate.swift */; };
+		E127A02F27E13FC80087FF53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A02E27E13FC80087FF53 /* ViewController.swift */; };
+		E127A03227E13FC90087FF53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E127A03027E13FC90087FF53 /* Main.storyboard */; };
+		E127A03527E13FC90087FF53 /* Stock_Sentimate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E127A03327E13FC90087FF53 /* Stock_Sentimate.xcdatamodeld */; };
+		E127A03727E13FCC0087FF53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E127A03627E13FCC0087FF53 /* Assets.xcassets */; };
+		E127A03A27E13FCC0087FF53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E127A03827E13FCC0087FF53 /* LaunchScreen.storyboard */; };
+		E127A04327E14C0E0087FF53 /* TweetSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E127A04227E14C0E0087FF53 /* TweetSentimentClassifier.mlmodel */; };
+		E127A05727E15EC60087FF53 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E127A04D27E15E520087FF53 /* SwifteriOS.framework */; };
+		E127A05827E15EC60087FF53 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E127A04D27E15E520087FF53 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E127A04C27E15E520087FF53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E127A04427E15E520087FF53 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		E127A04E27E15E520087FF53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E127A04427E15E520087FF53 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		E127A05027E15E520087FF53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E127A04427E15E520087FF53 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		E127A05227E15E520087FF53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E127A04427E15E520087FF53 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		E127A05427E15E520087FF53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E127A04427E15E520087FF53 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B4D5751C7BAC4500E06514;
+			remoteInfo = SwifterTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E127A05927E15EC60087FF53 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E127A05827E15EC60087FF53 /* SwifteriOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8BE5A7530542EA5411CB49CA /* Pods-Stock Sentimate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stock Sentimate.debug.xcconfig"; path = "Target Support Files/Pods-Stock Sentimate/Pods-Stock Sentimate.debug.xcconfig"; sourceTree = "<group>"; };
+		AF0A29968E26DC0004F01698 /* Pods_Stock_Sentimate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stock_Sentimate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C667E99BDB248DCC3DA8BF54 /* Pods-Stock Sentimate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stock Sentimate.release.xcconfig"; path = "Target Support Files/Pods-Stock Sentimate/Pods-Stock Sentimate.release.xcconfig"; sourceTree = "<group>"; };
+		E127A02727E13FC80087FF53 /* Stock Sentimate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stock Sentimate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E127A02A27E13FC80087FF53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E127A02C27E13FC80087FF53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E127A02E27E13FC80087FF53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E127A03127E13FC90087FF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E127A03427E13FC90087FF53 /* Stock_Sentimate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stock_Sentimate.xcdatamodel; sourceTree = "<group>"; };
+		E127A03627E13FCC0087FF53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E127A03927E13FCC0087FF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E127A03B27E13FCC0087FF53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E127A04227E14C0E0087FF53 /* TweetSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = TweetSentimentClassifier.mlmodel; path = ../../TweetSentimentClassifier.mlmodel; sourceTree = "<group>"; };
+		E127A04427E15E520087FF53 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E127A02427E13FC80087FF53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E127A05727E15EC60087FF53 /* SwifteriOS.framework in Frameworks */,
+				D7ABB8629530A3079D609A03 /* Pods_Stock_Sentimate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E127A01E27E13FC80087FF53 = {
+			isa = PBXGroup;
+			children = (
+				E127A04427E15E520087FF53 /* Swifter.xcodeproj */,
+				E127A02927E13FC80087FF53 /* Stock Sentimate */,
+				E127A02827E13FC80087FF53 /* Products */,
+				E127A05627E15EC60087FF53 /* Frameworks */,
+				FA8E13CB1EE11C76D5C42A5A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E127A02827E13FC80087FF53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E127A02727E13FC80087FF53 /* Stock Sentimate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E127A02927E13FC80087FF53 /* Stock Sentimate */ = {
+			isa = PBXGroup;
+			children = (
+				E127A04227E14C0E0087FF53 /* TweetSentimentClassifier.mlmodel */,
+				E127A02A27E13FC80087FF53 /* AppDelegate.swift */,
+				E127A02C27E13FC80087FF53 /* SceneDelegate.swift */,
+				E127A02E27E13FC80087FF53 /* ViewController.swift */,
+				E127A03027E13FC90087FF53 /* Main.storyboard */,
+				E127A03627E13FCC0087FF53 /* Assets.xcassets */,
+				E127A03827E13FCC0087FF53 /* LaunchScreen.storyboard */,
+				E127A03B27E13FCC0087FF53 /* Info.plist */,
+				E127A03327E13FC90087FF53 /* Stock_Sentimate.xcdatamodeld */,
+			);
+			path = "Stock Sentimate";
+			sourceTree = "<group>";
+		};
+		E127A04527E15E520087FF53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E127A04D27E15E520087FF53 /* SwifteriOS.framework */,
+				E127A04F27E15E520087FF53 /* SwifterMac.framework */,
+				E127A05127E15E520087FF53 /* SwifterDemoiOS.app */,
+				E127A05327E15E520087FF53 /* SwifterDemoMac.app */,
+				E127A05527E15E520087FF53 /* SwifterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E127A05627E15EC60087FF53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF0A29968E26DC0004F01698 /* Pods_Stock_Sentimate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA8E13CB1EE11C76D5C42A5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BE5A7530542EA5411CB49CA /* Pods-Stock Sentimate.debug.xcconfig */,
+				C667E99BDB248DCC3DA8BF54 /* Pods-Stock Sentimate.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E127A02627E13FC80087FF53 /* Stock Sentimate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E127A03E27E13FCC0087FF53 /* Build configuration list for PBXNativeTarget "Stock Sentimate" */;
+			buildPhases = (
+				6B55C8D67B6B0273046ADBBC /* [CP] Check Pods Manifest.lock */,
+				E127A02327E13FC80087FF53 /* Sources */,
+				E127A02427E13FC80087FF53 /* Frameworks */,
+				E127A02527E13FC80087FF53 /* Resources */,
+				E127A05927E15EC60087FF53 /* Embed Frameworks */,
+				63918DFB673EF54A4FB74772 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stock Sentimate";
+			productName = "Stock Sentimate";
+			productReference = E127A02727E13FC80087FF53 /* Stock Sentimate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E127A01F27E13FC80087FF53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E127A02627E13FC80087FF53 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = E127A02227E13FC80087FF53 /* Build configuration list for PBXProject "Stock Sentimate" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E127A01E27E13FC80087FF53;
+			productRefGroup = E127A02827E13FC80087FF53 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E127A04527E15E520087FF53 /* Products */;
+					ProjectRef = E127A04427E15E520087FF53 /* Swifter.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E127A02627E13FC80087FF53 /* Stock Sentimate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E127A04D27E15E520087FF53 /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = E127A04C27E15E520087FF53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E127A04F27E15E520087FF53 /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = E127A04E27E15E520087FF53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E127A05127E15E520087FF53 /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = E127A05027E15E520087FF53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E127A05327E15E520087FF53 /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = E127A05227E15E520087FF53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E127A05527E15E520087FF53 /* SwifterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterTests.xctest;
+			remoteRef = E127A05427E15E520087FF53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E127A02527E13FC80087FF53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E127A03A27E13FCC0087FF53 /* LaunchScreen.storyboard in Resources */,
+				E127A03727E13FCC0087FF53 /* Assets.xcassets in Resources */,
+				E127A03227E13FC90087FF53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63918DFB673EF54A4FB74772 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stock Sentimate/Pods-Stock Sentimate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stock Sentimate/Pods-Stock Sentimate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stock Sentimate/Pods-Stock Sentimate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B55C8D67B6B0273046ADBBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stock Sentimate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E127A02327E13FC80087FF53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E127A02F27E13FC80087FF53 /* ViewController.swift in Sources */,
+				E127A04327E14C0E0087FF53 /* TweetSentimentClassifier.mlmodel in Sources */,
+				E127A03527E13FC90087FF53 /* Stock_Sentimate.xcdatamodeld in Sources */,
+				E127A02B27E13FC80087FF53 /* AppDelegate.swift in Sources */,
+				E127A02D27E13FC80087FF53 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E127A03027E13FC90087FF53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E127A03127E13FC90087FF53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E127A03827E13FCC0087FF53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E127A03927E13FCC0087FF53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E127A03C27E13FCC0087FF53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E127A03D27E13FCC0087FF53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E127A03F27E13FCC0087FF53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE5A7530542EA5411CB49CA /* Pods-Stock Sentimate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DWVHCVKF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Stock Sentimate/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.svtechSoultion.Stock-Sentimate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E127A04027E13FCC0087FF53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C667E99BDB248DCC3DA8BF54 /* Pods-Stock Sentimate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DWVHCVKF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Stock Sentimate/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.svtechSoultion.Stock-Sentimate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E127A02227E13FC80087FF53 /* Build configuration list for PBXProject "Stock Sentimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E127A03C27E13FCC0087FF53 /* Debug */,
+				E127A03D27E13FCC0087FF53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E127A03E27E13FCC0087FF53 /* Build configuration list for PBXNativeTarget "Stock Sentimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E127A03F27E13FCC0087FF53 /* Debug */,
+				E127A04027E13FCC0087FF53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E127A03327E13FC90087FF53 /* Stock_Sentimate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E127A03427E13FC90087FF53 /* Stock_Sentimate.xcdatamodel */,
+			);
+			currentVersion = E127A03427E13FC90087FF53 /* Stock_Sentimate.xcdatamodel */;
+			path = Stock_Sentimate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E127A01F27E13FC80087FF53 /* Project object */;
+}
